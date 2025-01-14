@@ -12,7 +12,6 @@ buttons.forEach( (item) => {
             } else if(item.dataset.button === '=') {
                 if(display.value !== ''){
                     display.value = eval(display.value);
-                    setTimeout( () => (display.value =''), 5000)
                 }
                 
             } 
